@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirect</title>
+
+    <!-- fallback если JS отключён -->
+    <meta http-equiv="refresh" content="0; url=https://method-a.ru/" />
+
+    <!-- основной способ -->
+    <script>
+      location.replace("https://method-a.ru/");
+    </script>
+
+    <link rel="canonical" href="https://method-a.ru/" />
+  </head>
+  <body>
+    <noscript>
+      <a href="https://method-a.ru/">Перейти на method-a.ru</a>
+    </noscript>
+  </body>
+</html>
